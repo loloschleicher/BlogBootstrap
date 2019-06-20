@@ -1,0 +1,140 @@
+
+body{
+  background-image: url(../img/fondo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.encabezado{
+  height: 150px;
+  background-color: green;
+
+
+}
+.logo{
+  height: 130px;
+  margin-top: 10px;
+}
+.img-social{
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-top: 100px;
+  margin-right: 10px;
+}
+.navbar{
+  text-align: center;
+  width: 100%;
+  background-image: url(../img/barra.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-nav{
+  background-color: rgb(20,90,130);
+  color: white;
+  width: 12%;
+}
+.img{
+  width: 100%;
+  height: 190px;
+  margin-top: 40px;
+}
+.contenedor{
+  background-color: rgba(1, 167, 100, 0.5);
+  width: 80%;
+  text-align: center;
+  margin-left: 130px;
+}
+p{
+  color: white;
+}
+h1{
+  color: black;
+}
+.textarea{
+  background-color: rgba(100,90,130,0.9);
+  width: 80%;
+  margin-left: 80px;
+}
+.buscador{
+  margin-top: 5px;
+  background-color: black;
+  height: 100px;
+
+}
+.buscar{
+  margin-top: 30px;
+  background-image: url(../img/icono_buscar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-indent: 20px;
+}
+.b{
+  color: white;
+
+}
+.btn-buscador{
+  width: 82%;
+  margin-top: 20px;
+}
+.col-buscar{
+  background-color: red;
+  height: 500px;
+  width: 30%;
+}
+@media (max-width:720px){
+  .logo{
+    height: 70px;
+    margin-top: 10px
+  }
+  .img-social{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.navbar{
+  text-align: center;
+  width: 100%;
+  background-image: url(../img/barra.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn-nav{
+  background-color: rgb(20,90,130);
+  color: white;
+  width: 60%;
+}
+.col-buscar{
+  display: none;
+}
+.textarea{
+  width: 80%;
+  margin-left: 30px;
+}
+p{
+  color: white;
+}
+}
+@media (min-width:721px) and (max-width:1024px){
+  .col-buscar{
+  width: 20%;
+  }
+  .btn-buscador{
+    width: 80%;
+    margin-top: 20px;
+    font-size: 5px;
+  }
+  .img-social{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+p{
+  color: white;
+}
+}
